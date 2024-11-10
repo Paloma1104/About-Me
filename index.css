@@ -86,7 +86,7 @@ nav ul li a:hover{
 #section1 {
     align-items: center;          
     justify-content: flex-start; 
-    color: white;
+    color: #fbe1e5;
     text-shadow: 2px 2px 4px #000000;
     text-align: left;    
    
@@ -95,11 +95,15 @@ nav ul li a:hover{
     height: 100vh;
     padding-left: 1%;           
 }
+.text{
+    width:80%;
+    margin: 50px ;
+}
 .text h1 {
     /* margin-top: 50px; */
-    font-family: "Host Grotesk", sans-serif;
-    font-size: 4.75rem;
-    margin-bottom: 0.5px;
+    font-family: "Sour Gummy", serif;
+    font-size: 4.25rem;
+    margin-bottom: 0.25px;
 }
 .text p {
     font-family: "Sour Gummy", serif;
@@ -110,6 +114,10 @@ nav ul li a:hover{
 #section2 {
     background-image: url('images/about\ me.jpeg');
     
+}
+.text2{
+    width:80%;
+    margin: 50px ;
 }
 .text2 h2{
     align-items: top;          
@@ -131,24 +139,242 @@ nav ul li a:hover{
     text-align: left;    
 }
 #section3 {
-    align-items: center;          
-    justify-content: flex-start; 
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    text-align: left;    
-    /* background-image: url('images/download\ \(4\).jpeg'); Replace with your image path */
+    background: radial-gradient(circle, hsla(344, 29%, 63%, 1) 0%, hsla(316, 26%, 35%, 1) 66%, hsla(318, 34%, 21%, 1) 100%);
 }
-#section4 {
+.text3{
+    width:80%;
+    margin: 50px auto;
+}
+.text3 h1 {
     align-items: center;          
     justify-content: center; 
-    color: white;
+    color: #fff;
     text-shadow: 2px 2px 4px #000000;
+    text-align: center;    
+    font-size: 4.5rem;
+    font-family: "Sour Gummy", sans-serif;
+    margin-bottom: 0.5px;
+}
+.text3 p{
+    font-family: "Sour Gummy", serif;
+    font-size: 2rem;
+    align-items: center;          
+    justify-content: left; 
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 120px;
     text-align: left;    
-    background-image: url('images/midnight\ rain\ taylor\ swift\ desktop\ background.jpeg'); /* Replace with your image path */
+}
+.text3 p a{
+    color: #fff;
+}
+
+.column {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 100px;
+
+  }
+
+
+  .right {
+    align-items: right;
+    text-align: left;
+    float: right;
+    height: 80vh;
+    margin-bottom: 60px;
+    position: relative;
+    bottom: 55px;
+}
+h3{
+margin: 5px;
+}
+ .text3 .column.right .skill{
+    list-style: none;
+    color: white;
+    width: 500px;
+    margin: 60px auto auto 100px;
+   
+  }
+
+ .text3 .column.right .skill li
+ {
+margin: 20px 0;
+padding: 10px;
+}  
+
+ .text3 .column.right .skill li .bar{
+/* background: rgb(89,126,190);
+background: linear-gradient(90deg, rgba(89,126,190,1) 18%, rgba(216,1,252,1) 79%); */
+display: block;
+height: 20px;
+border: 2px solid rgba(254, 253, 253, 0.963);
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+transition: all 0.3s cubic-bezier(.25, .8 .25,1);
+}
+.text3 .column.right .skill li .bar:hover{
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.text3 .column.right .skill li .bar span{
+height: 20px;
+float: left;
+background: linear-gradient(90deg, hsla(166, 26%, 43%, 1) 0%, hsla(163, 77%, 60%, 1) 100%);
+
+}
+
+.text3 .column.right .skill .html{
+width: 80%;
+animation: html 3s;
+}
+
+.text3 .column.right .skill .css{
+width: 70%;
+animation: css 3s;
+}
+
+.text3 .column.right .skill .content1{
+width: 90%;
+animation: content1 3s;
+}
+@keyframes html{
+0%{
+    width: 0%;
+}
+100%{
+    width: 80%;
+}
+}
+@keyframes css{
+0%{
+    width: 0%;
+}
+100%{
+    width: 70%;
+}
+}
+
+
+@keyframes content1{
+0%{
+    width: 0%;
+}
+100%{
+    width: 90%;
+}
+}
+
+#section4 {  
+    background: radial-gradient(circle, hsla(218, 41%, 42%, 1) 0%, hsla(42, 52%, 95%, 1) 100%);
+}
+.text4{
+    width:80%;
+    margin: 50px auto;
+}
+.text4 h2 {
+    align-items: center;          
+    justify-content: center; 
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;    
+    font-size: 4.5rem;
+    font-family: "Sour Gummy", sans-serif;
+}
+.text4 p {
+    align-items: center;          
+    justify-content: center; 
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;    
+    font-family: "Sour Gummy", sans-serif;
+
+}
+.contact-box{
+  
+    display: flex;
+}
+
+.contact-left{
+   
+    flex-basis:60%;
+    padding: 40px;
+}
+
+.contact-right{
+
+    flex-basis: 40%;
+    padding: 40px;
+
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+}
+
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 35px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+
+.contact-left h3 {
+    
+    color:#000000;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-family: "Host Grotesk", sans-serif;
+}
+
+.contact-right h3 {
+    font-size: 2rem;
+    font-family: "Host Grotesk", sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+tr td:first-child{
+    padding: 10px;
 }
 
 .content-section {
-    background-color: #f1f1f1;
+    background-color: #C4E1F6;
     padding: 20px;
     text-align: center;
 }
@@ -158,6 +384,7 @@ nav ul li a:hover{
     width: 80%;
     font-size: 1.2em;
 }
+
 
 footer{
     text-align: center;
