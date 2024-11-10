@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+@keyframes floatIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Start slightly below the original position */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at the original position */
+    }
+}
 
 
 body {
@@ -18,6 +28,9 @@ body {
     overflow-y: scroll;
     overflow-x: hidden; */
 }
+ 
+
+
 .navbar {
     position: fixed;
     top: 0;
@@ -47,6 +60,17 @@ nav ul li a:hover{
     font-size: larger;
     padding: 5px;
 }
+.intro-item {
+    opacity: 0;                           /* Start hidden */
+    animation: floatIn 1s ease-out forwards;
+    animation-delay: 0.3s;                /* Delay to start the animation */
+}
+
+
+
+
+
+
 
 
 .parallax-section {
@@ -65,29 +89,46 @@ nav ul li a:hover{
     color: white;
     text-shadow: 2px 2px 4px #000000;
     text-align: left;    
-    font-family: dancing script;
+   
     background-image: url('images/home.jpeg'); 
     display: flex;   
     height: 100vh;
     padding-left: 1%;           
 }
 .text h1 {
-    font-size: 5rem;
-    margin-bottom: 0.5rem;
+    /* margin-top: 50px; */
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 4.75rem;
+    margin-bottom: 0.5px;
 }
 .text p {
-    font-family: sour gummy;
-    font-size: 1rem;
+    font-family: "Sour Gummy", serif;
+    font-size: 1.25rem;
 }
 
 
 #section2 {
-    align-items: center;          
-    justify-content: flex-start; 
-    color: white;
+    background-image: url('images/about\ me.jpeg');
+    
+}
+.text2 h2{
+    align-items: top;          
+    justify-content: left; 
+    color: #0A44A9;
     text-shadow: 2px 2px 4px #000000;
     text-align: left;    
-    background-image: url('images/home1.jpeg'); /* Replace with your image path */
+    font-size: 5rem;
+    font-family: "Host Grotesk", sans-serif;
+    margin: 5px 5px 85px 15px;
+}
+.text2 p{
+    font-family: "Sour Gummy", serif;
+    font-size: 2rem;
+    align-items: bottom;          
+    justify-content: left; 
+    color: #3d92c3;
+    margin-left: 10px;
+    text-align: left;    
 }
 #section3 {
     align-items: center;          
@@ -95,7 +136,7 @@ nav ul li a:hover{
     color: white;
     text-shadow: 2px 2px 4px #000000;
     text-align: left;    
-    background-image: url('images/download\ \(4\).jpeg'); /* Replace with your image path */
+    /* background-image: url('images/download\ \(4\).jpeg'); Replace with your image path */
 }
 #section4 {
     align-items: center;          
