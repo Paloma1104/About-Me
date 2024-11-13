@@ -45,7 +45,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding: 1rem 0;
+    padding: 1.25rem 0;
 }
 nav ul li {
     margin: 0 1rem;
@@ -54,11 +54,12 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.17rem;
     
 }
 nav ul li a:hover{
-    font-size: larger;
-    padding: 5px;
+    font-size: 1.5rem;
+    padding: 2.5rem;
 }
 .intro-item {
     opacity: 0;                           /* Start hidden */
@@ -122,11 +123,11 @@ nav ul li a:hover{
 .text2 h2{
     align-items: top;          
     justify-content: left; 
-    color: #0A44A9;
+    color: #1146B2;
     text-shadow: 2px 2px 4px #000000;
     text-align: left;    
-    font-size: 5rem;
-    font-family: "Host Grotesk", sans-serif;
+    font-size: 4.5rem;
+    font-family: "Ribeye", serif;
     margin: 5px 5px 85px 15px;
 }
 .text2 p{
@@ -134,7 +135,7 @@ nav ul li a:hover{
     font-size: 2rem;
     align-items: bottom;          
     justify-content: left; 
-    color: #3d92c3;
+    color: #0095ff;
     margin-left: 10px;
     text-align: left;    
 }
@@ -148,7 +149,7 @@ nav ul li a:hover{
 .text3 h1 {
     align-items: center;          
     justify-content: center; 
-    color: #fff;
+    color: #fabcc5;
     text-shadow: 2px 2px 4px #000000;
     text-align: center;    
     font-size: 4.5rem;
@@ -160,13 +161,13 @@ nav ul li a:hover{
     font-size: 2rem;
     align-items: center;          
     justify-content: left; 
-    color: #fff;
+    color: #fbe1e5;
     margin-left: 10px;
     margin-top: 120px;
     text-align: left;    
 }
 .text3 p a{
-    color: #fff;
+    color: #fabcc5;
 }
 
 .column {
@@ -191,7 +192,7 @@ margin: 5px;
 }
  .text3 .column.right .skill{
     list-style: none;
-    color: white;
+    color: #fbe1e5;
     width: 500px;
     margin: 60px auto auto 100px;
    
@@ -255,8 +256,6 @@ animation: content1 3s;
     width: 70%;
 }
 }
-
-
 @keyframes content1{
 0%{
     width: 0%;
@@ -276,7 +275,7 @@ animation: content1 3s;
 .text4 h2 {
     align-items: center;          
     justify-content: center; 
-    color: #fff;
+    color: #D0D4D9;
     text-shadow: 2px 2px 4px #000000;
     text-align: center;    
     font-size: 4.5rem;
@@ -285,7 +284,7 @@ animation: content1 3s;
 .text4 p {
     align-items: center;          
     justify-content: center; 
-    color: #fff;
+    color: #bac8d9;
     text-shadow: 2px 2px 4px #000000;
     text-align: center;    
     font-family: "Sour Gummy", sans-serif;
@@ -342,7 +341,7 @@ label{
 }
 
 button{
-    background: #1c00b5;
+    background: #4C6A9D;
     width: 100px;
     border: none;
     outline: none;
@@ -359,12 +358,12 @@ button{
     font-weight: 600;
     margin-bottom: 30px;
     font-size: 2rem;
-    font-family: "Host Grotesk", sans-serif;
+    font-family: "Pompiere", sans-serif;
 }
 
 .contact-right h3 {
     font-size: 2rem;
-    font-family: "Host Grotesk", sans-serif;
+    font-family: "Pompiere", sans-serif;
     font-weight: 600;
     margin-bottom: 20px;
 }
